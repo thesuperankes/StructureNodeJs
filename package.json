@@ -1,0 +1,35 @@
+{
+  "name": "architecturenodeproject",
+  "version": "1.0.0",
+  "description": "Basic structure to make a nodejs project with Typescript and express js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/Webapi/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesuperankes/StructureNodeJs.git"
+  },
+  "keywords": [
+    "Structure"
+  ],
+  "author": "Andres Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesuperankes/StructureNodeJs/issues"
+  },
+  "homepage": "https://github.com/thesuperankes/StructureNodeJs#readme",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4",
+    "util": "^0.12.1"
+  }
+}
